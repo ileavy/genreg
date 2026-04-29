@@ -77,5 +77,5 @@ gennex <- function(data = data , bs = bs, out = out) {
 
   nex <- write.nexus(tree_rooted, file = "my_gennex.nex")
   nex <- read.nexus("my_gennex.nex")
-  summary(nex)
+  return(summary(nex))
 }

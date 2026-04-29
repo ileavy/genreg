@@ -1,0 +1,43 @@
+---
+title: "gennex Vignette"
+vignette: >
+  %\VignetteIndexEntry{gennex Vignette}
+  %\VignetteEngine{quarto::html}
+  %\VignetteEncoding{UTF-8}
+knitr:
+  opts_chunk:
+    collapse: true
+    comment: '#>'
+---
+
+```{r}
+#| label: setup
+library(genreg)
+```
+
+```{r}
+data <- c(
+  Canis_lupus_familiaris = "NC_002008",
+  Lemur_catta = "NC_004025",
+  Galago_moholi = "KC757396",
+  Saimiri_sciureus = "FJ785425",
+  Callithrix_jacchus = "NC_025586",
+  Saguinus_oedipus = "FJ785424",
+  Lagothrix_lagotricha = "KC757398",
+  Colobus_guereza = "AY863427",
+  Nasalis_larvatus = "JF293094",
+  Erythrocebus_patas = "KJ434955",
+  Macaca_mulatta = "NC_005943",
+  Mandrillus_sphinx = "KJ434963",
+  Papio_anubis = "KC757406",
+  Papio_hamadryas = "NC_001992",
+  Theropithecus_gelada = "FJ785426",
+  Pongo_pygmaeus = "NC_001646",
+  Gorilla_gorilla = "NC_001645",
+  Pan_troglodytes = "EU095335"
+)
+
+gennex(data = data, bs = 100, out = "Canis_lupus_familiaris")
+
+
+```

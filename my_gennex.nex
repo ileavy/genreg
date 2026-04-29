@@ -1,0 +1,23 @@
+#NEXUS
+[R-package APE, Tue Apr 28 15:00:11 2026]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 5;
+	TAXLABELS
+		Canis_lupus_familiaris
+		Lemur_catta
+		Galago_moholi
+		Saimiri_sciureus
+		Callithrix_jacchus
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Canis_lupus_familiaris,
+		2	Lemur_catta,
+		3	Galago_moholi,
+		4	Saimiri_sciureus,
+		5	Callithrix_jacchus
+	;
+	TREE * UNTITLED = [&R] (((3:0.2642892761,2:0.2141818198)1:0.04792318236,(4:0.1625797865,5:0.1391526178)1:0.2949392827)1:0,1:0.3131274722)Root;
+END;

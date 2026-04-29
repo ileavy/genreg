@@ -1,0 +1,22 @@
+Package: genreg
+Title: Creating and conducting phylogenetic regressions
+Version: 0.0.0.9000
+Authors@R: 
+    c(person("Apple", "Leavy", , "isabelle.leavy@gmail.com", role = c("aut", "cre")),
+    person("Saida", "Tokmurzina", "st39854@my.utexas.edu", role = c("aut")))
+Description: This package starts with mitochondrial DNA data from multiple species and provides the tools needed to build a phylogeny and conduct linear and multiple phylogenetic regressions.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: 
+    ape,
+    BiocManager,
+    Biostrings,
+    DECIPHER,
+    phangorn
+Suggests: 
+    knitr,
+    quarto
+VignetteBuilder: quarto

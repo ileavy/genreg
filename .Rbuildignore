@@ -1,0 +1,6 @@
+^genreg\.Rproj$
+^\.Rproj\.user$
+^\.positai$
+^\.claude$
+^vignettes/\.quarto$
+^vignettes/*_files$

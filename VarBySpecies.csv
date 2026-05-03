@@ -1,60 +1,60 @@
-species.iucn,species,group,tribe,family,genus,have.tf,reports.n,videos.n,sources.n,cases.n,infant.n,single.n,twin.n,triplet.n,diurnal.n,nocturnal.n,wild.n,anth.n,zoo.n,freerange.n,research.n,pet.n,captive.n,prim.n,multip.n,gran.n,mat.survived,mat.died,mat.reject,inf.info,inf.live,inf.still,inf.comp,case.death,death.prop,ceph.n,nonceph.n,vertex.n,face.n,brow.n,OP,OA,fin.1,fin.2,fin.3,fin.4,fin.5,fin.6,fin.7,fin.8,fin.9,fin.10,fin.11,phag.T,phag.F,ass.T,ass.F,con.prox.T,con.prox.F,con.ass.T,con.ass.F,con.ins.T,con.ins.F,con.phag.T,con.phag.F,map.n,map,glab.n,glab,CPP,CPP.gencat
-Alouatta_belzebul,Alouatta belzebul,NWM,Atelidae,Atelidae,Alouatta,T,1,0,1,2,2,2,0,0,2,0,2,0,0,0,0,0,0,0,0,0,2,0,0,2,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,0,1,1,0,2,0,2,0,1,NA,NA,NA,NA,NA,unknown
-Alouatta_caraya,Alouatta caraya,NWM,Atelidae,Atelidae,Alouatta,T,1,0,1,4,4,4,0,0,3,1,4,0,0,0,0,0,0,0,4,0,4,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,3,0,0,4,0,4,0,4,0,4,NA,NA,NA,NA,NA,unknown
-Alouatta_guariba,Alouatta guariba,NWM,Atelidae,Atelidae,Alouatta,T,2,0,2,2,2,2,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,1,0,2,1,0,1,1,0.5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,unknown
-Alouatta_palliata,Alouatta palliata,NWM,Atelidae,Atelidae,Alouatta,T,3,0,3,3,3,3,0,0,3,0,1,1,0,1,0,0,0,1,0,2,3,0,0,3,3,0,0,0,0,2,1,1,0,0,1,0,2,0,1,0,0,0,0,0,0,0,0,2,0,2,1,0,3,0,2,0,2,0,2,NA,NA,NA,NA,NA,unknown
-Alouatta_pigra,Alouatta pigra,NWM,Atelidae,Atelidae,Alouatta,T,1,0,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,1,0,0,0,NA,NA,1,48,NA,unknown
-Alouatta_seniculus,Alouatta seniculus,NWM,Atelidae,Atelidae,Alouatta,T,1,0,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,1,53.158,1,51.48456,NA,unknown
-Ateles_fusciceps,Ateles fusciceps,NWM,Atelidae,Atelidae,Ateles,T,0,1,1,1,1,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,NA,NA,NA,NA,NA,high
-Callithrix_jacchus,Callithrix jacchus,NWM,Callitrichidae,Callitrichidae,Callithrix,T,3,1,4,25,59,3,10,12,2,18,0,0,0,0,24,1,0,4,15,6,23,2,0,56,48,7,2,8,0.142857143,21,0,21,0,0,18,3,1,0,0,0,0,0,0,0,0,0,0,11,5,1,22,24,1,0,5,3,1,2,3,3,16.2356,4,27.9,1.23,extreme
-Cebuella_pygmaea,Cebuella pygmaea,NWM,Callitrichidae,Callitrichidae,Cebuella,T,0,1,1,1,2,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,NA,NA,3,23.59318,NA,unknown
-Cercocebus_galeritus,Cercocebus galeritus,OWM,Papionini,Cercopithecidae,Cheracebus,T,1,0,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,NA,NA,NA,NA,NA,unknown
-Cercopithecus_campbelli,Cercopithecus campbelli,OWM,Cercopithecini,Cercopithecidae,Cercopithecus,T,1,0,1,1,1,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,unknown
-Cercopithecus_mitis,Cercopithecus mitis,OWM,Cercopithecini,Cercopithecidae,Cercopithecus,T,1,0,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,NA,NA,NA,NA,NA,unknown
-Cercopithecus_mona,Cercopithecus mona,OWM,Cercopithecini,Cercopithecidae,Cercopithecus,T,1,0,1,1,1,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,unknown
-Cercopithecus_neglectus,Cercopithecus neglectus,OWM,Cercopithecini,Cercopithecidae,Cercopithecus,T,1,0,1,1,1,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,unknown
-Chlorocebus_aethiops,Chlorocebus aethiops,OWM,Cercopithecini,Cercopithecidae,Chlorocebus,T,2,0,2,2,2,2,0,0,1,1,0,0,1,0,0,0,1,0,0,0,1,1,0,2,1,0,1,1,0.5,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,1,43.7605,NA,NA,NA,unknown
-Chlorocebus_pygerythrus,Chlorocebus pygerythrus,OWM,Cercopithecini,Cercopithecidae,Chlorocebus,T,0,2,2,2,2,2,0,0,2,0,0,0,0,1,0,0,1,0,0,0,2,0,0,2,2,0,0,0,0,1,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,2,0,0,1,1,1,0,1,0,1,0,1,NA,NA,NA,NA,NA,unknown
-Colobus_guereza,Colobus guereza,OWM,Colobini,Cercopithecidae,Colobus,T,1,0,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,0,1,1,49.954,1,52.66618,0.5,low
-Erythrocebus_patas,Erythrocebus patas,OWM,Cercopithecini,Cercopithecidae,Erythrocebus,T,3,0,3,9,9,9,0,0,8,1,2,0,0,0,7,0,0,3,6,0,9,0,0,3,3,0,0,0,0,1,0,1,0,0,1,0,4,0,0,0,0,0,0,0,0,0,0,6,3,2,0,8,0,0,2,0,2,0,2,2,46.13315,1,58.7811,0.83,high
-Galago_moholi,Galago moholi,Lorisoidea,Galagidae,Galagidae,Galago,T,1,0,1,3,6,1,1,1,1,1,0,0,0,0,3,0,0,0,2,0,3,0,0,6,3,1,2,3,0.5,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,2,0,0,2,0,0,1,2,0,0,2,1,1,1,1,3,12.08603333,1,21.6941,1.56,extreme
-Gorilla_beringei,Gorilla beringei,Ape,Hominidae,Hominidae,Gorilla,T,2,0,2,2,2,2,0,0,2,0,2,0,0,0,0,0,0,0,2,0,2,0,0,2,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,1,0,1,2,148.7265,NA,NA,NA,low
-Gorilla_gorilla,Gorilla gorilla,Ape,Hominidae,Hominidae,Gorilla,T,11,7,18,20,20,20,0,0,10,9,0,0,17,0,2,0,1,11,6,0,20,0,0,20,20,0,0,0,0,11,0,2,0,0,0,4,2,0,6,0,3,1,2,1,0,0,0,5,4,3,5,4,5,0,6,3,3,0,3,3,142.2983333,4,97,0.33,low
-Hylobates_moloch,Hylobates moloch,Ape,Hylobatidae,Hylobatidae,Hylobates,T,0,1,1,1,1,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,1,0,1,NA,NA,NA,NA,NA,low
-Hylobates_muelleri,Hylobates muelleri,Ape,Hylobatidae,Hylobatidae,Hylobates,T,1,0,1,1,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,low
-Hylobates_pileatus,Hylobates pileatus,Ape,Hylobatidae,Hylobatidae,Hylobates,T,1,0,1,1,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,low
-Lagothrix_lagotricha,Lagothrix lagotricha,NWM,Atelidae,Atelidae,Lagothrix,T,1,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,3,61.41656667,1,61,0.83,high
-Lemur_catta,Lemur catta,Lemur,Lemuridae,Lemuridae,Lemur,T,1,1,2,5,5,5,0,0,5,0,4,0,1,0,0,0,0,1,3,0,5,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,3,1,0,1,0,0,0,0,0,5,0,4,1,1,4,0,5,0,4,0,4,1,35.4343,1,36.9025,0.63,low
-Loris_lydekkerianus,Loris lydekkerianus,Lorisoidea,Lorisidae,Lorisidae,Loris,T,1,0,1,2,2,2,0,0,2,0,0,0,0,0,0,0,2,0,0,0,2,0,0,2,2,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,unknown
-Macaca_arctoides,Macaca arctoides,OWM,Papionini,Cercopithecidae,Macaca,T,2,0,2,4,4,4,0,0,1,3,0,0,3,0,1,0,0,0,1,0,4,0,0,4,4,0,0,0,0,4,0,0,0,0,3,0,0,0,2,1,1,0,0,0,0,0,0,4,0,4,0,1,1,0,2,1,1,0,2,NA,NA,NA,NA,NA,low
-Macaca_fascicularis,Macaca fascicularis,OWM,Papionini,Cercopithecidae,Macaca,T,2,28,30,34,34,34,0,0,16,12,21,7,0,0,6,0,0,1,6,0,31,0,2,31,22,5,4,9,0.290322581,22,8,6,1,1,18,0,7,0,9,6,1,0,0,0,0,5,0,14,0,24,4,14,11,0,11,9,3,0,3,1,49.2467,NA,NA,NA,low
-Macaca_fuscata,Macaca fuscata,OWM,Papionini,Cercopithecidae,Macaca,T,6,1,7,22,22,22,0,0,10,12,0,0,1,8,13,0,0,6,10,5,22,0,0,22,17,5,0,5,0.227272727,17,4,4,0,0,3,1,2,0,2,0,1,0,0,0,0,2,0,14,2,7,1,3,3,0,4,2,2,0,3,3,66.5586,4,65.2475,NA,low
-Macaca_leonina,Macaca leonina,OWM,Papionini,Cercopithecidae,Macaca,T,0,4,4,4,4,4,0,0,4,0,1,3,0,0,0,0,0,0,0,0,1,0,3,4,1,3,0,3,0.75,2,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,2,1,2,2,0,0,3,0,1,0,NA,NA,NA,NA,NA,low
-Macaca_mulatta,Macaca mulatta,OWM,Papionini,Cercopithecidae,Macaca,T,7,6,13,20,20,20,0,0,11,7,2,5,1,1,10,0,1,3,7,0,20,0,0,20,16,4,0,4,0.2,13,4,0,4,1,2,0,1,0,4,1,0,0,2,0,0,0,0,9,0,10,3,4,5,0,4,3,2,0,3,4,68.126975,40,66.54249,0.63,low
-Macaca_nemestrina,Macaca nemestrina,OWM,Papionini,Cercopithecidae,Macaca,T,1,1,2,2,2,2,0,0,2,0,1,0,1,0,0,0,0,1,0,0,2,0,0,2,1,1,0,1,0.5,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,2,0,1,0,0,1,1,0,0,0,NA,NA,NA,NA,NA,low
-Macaca_nigra,Macaca nigra,OWM,Papionini,Cercopithecidae,Macaca,T,1,0,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,1,0,0,0,NA,NA,NA,NA,NA,low
-Macaca_sinica,Macaca sinica,OWM,Papionini,Cercopithecidae,Macaca,T,1,0,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,1,0,1,0,1,1,0,NA,NA,NA,NA,NA,low
-Macaca_sylvanus,Macaca sylvanus,OWM,Papionini,Cercopithecidae,Macaca,T,1,0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,low
-Mandrillus_sphinx,Mandrillus sphinx,OWM,Papionini,Cercopithecidae,Mandrillus,T,1,0,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,1,0,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,4,65.635875,1,64.4202,0.67,high
-Nasalis_larvatus,Nasalis larvatus,OWM,,Cercopithecidae,Nasalis,T,1,0,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,0,0,0,0,3,59.82113333,1,64,0.59,low
-Pan_paniscus,Pan paniscus,Ape,Hominidae,Hominidae,Pan,T,5,4,9,8,8,8,0,0,6,0,1,0,6,0,0,0,1,4,3,0,8,0,0,9,9,0,0,0,0,6,0,1,0,0,2,1,0,0,1,0,1,1,2,0,0,0,0,5,0,5,0,4,0,2,2,3,1,2,0,NA,NA,NA,NA,NA,low
-Pan_troglodytes,Pan troglodytes,Ape,Hominidae,Hominidae,Pan,T,12,6,18,21,21,21,0,0,15,4,3,0,10,0,6,0,2,8,5,0,21,0,0,21,21,0,0,0,0,17,1,5,2,0,6,5,2,0,3,0,2,0,2,0,1,0,0,5,5,7,7,5,4,0,5,3,2,0,4,3,113.7763333,9,83,0.37,low
-Papio_anubis,Papio anubis,OWM,Papionini,Cercopithecidae,Papio,T,3,1,4,4,4,4,0,0,4,0,2,0,0,0,2,0,0,0,0,0,4,0,0,4,3,1,0,1,0.25,3,1,0,1,0,0,2,0,0,2,0,0,0,0,0,0,1,0,4,0,3,0,1,2,0,3,0,1,0,1,3,75.2682,1,75,0.69,high
-Papio_cynocephalus,Papio cynocephalus,OWM,Papionini,Cercopithecidae,Papio,T,1,0,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,1,NA,NA,NA,NA,NA,low
-Papio_hamadryas,Papio hamadryas,OWM,Papionini,Cercopithecidae,Papio,T,1,0,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,1,0,0,1,1,0,0,1,3,69.6457,1,56.3397,0.57,low
-Papio_ursinus,Papio ursinus,OWM,Papionini,Cercopithecidae,Papio,T,1,0,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,NA,NA,NA,1,0,0,1,1,0,0,0,0,1,0,1,0,0,NA,NA,1,0,0,0,0,0,0,0,0,0,0,1,0,NA,NA,1,0,0,1,1,0,NA,NA,NA,NA,NA,NA,NA,low
-Plecturocebus_donacophilus,Plecturocebus donacophilus,NWM,Pitheciidae,Pitheciidae,Plecturocebus,T,1,1,2,2,2,2,0,0,2,0,2,0,0,0,0,0,0,0,1,0,2,0,0,2,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,2,2,0,0,1,2,0,0,1,NA,NA,NA,NA,NA,unknown
-Pongo_abelii,Pongo abelii,Ape,Hominidae,Hominidae,Pongo,T,0,3,3,3,3,3,0,0,1,1,0,0,3,0,0,0,0,0,2,1,3,0,0,3,3,0,0,0,0,3,0,1,0,0,1,0,0,0,2,0,0,1,0,0,0,0,0,1,0,2,0,0,2,0,0,0,0,0,0,NA,NA,NA,NA,NA,low
-Pongo_pygmaeus,Pongo pygmaeus,Ape,Hominidae,Hominidae,Pongo,T,8,1,9,10,11,9,1,0,7,0,2,0,7,1,0,0,0,6,1,0,10,0,0,11,11,0,0,0,0,4,0,0,0,0,2,0,0,0,1,1,1,0,0,0,0,0,0,4,4,3,1,0,4,0,4,0,4,0,4,3,102.7851333,4,84.1,0.42,low
-Propithecus_verreauxi,Propithecus verreauxi,Lemur,Indriidae,Indriidae,Propithecus,T,3,1,4,5,5,5,0,0,1,1,3,0,0,0,1,0,0,1,2,0,5,0,0,5,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,4,0,3,0,2,3,0,5,2,3,0,4,3,30.14935556,2,27.88365,NA,unknown
-Pygathrix_nemaeus,Pygathrix nemaeus,OWM,Presbytini,Cercopithecidae,Pygathrix,T,2,0,2,2,2,2,0,0,1,1,0,0,2,0,0,0,0,0,2,0,1,1,0,2,1,0,1,1,0.5,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,1,0,1,0,1,NA,NA,NA,NA,NA,unknown
-Rhinopithecus_bieti,Rhinopithecus bieti,OWM,Presbytini,Cercopithecidae,Rhinopithecus,T,3,1,4,2,2,2,0,0,2,0,2,0,0,0,0,0,0,1,1,0,2,0,0,2,2,0,0,0,0,2,0,1,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,1,1,0,2,2,0,2,0,2,0,0,2,NA,NA,NA,NA,NA,unknown
-Rhinopithecus_roxellana,Rhinopithecus roxellana,OWM,Presbytini,Cercopithecidae,Rhinopithecus,T,1,0,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,NA,NA,NA,NA,NA,unknown
-Saguinus_mystax,Saguinus mystax,NWM,Callitrichidae,Callitrichidae,Saguinus,T,1,0,1,1,2,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,NA,NA,NA,NA,NA,extreme
-Saguinus_oedipus,Saguinus oedipus,NWM,Callitrichidae,Callitrichidae,Saguinus,T,2,0,2,15,34,1,9,5,13,2,1,0,0,0,14,0,0,2,6,0,15,0,0,33,31,0,2,2,0.060606061,8,0,8,0,0,8,0,0,0,0,0,0,0,0,0,0,1,0,10,2,1,14,12,3,0,15,0,1,9,5,3,17.12316667,12,27.88365,1.87,extreme
-Saimiri_sciureus,Saimiri sciureus,NWM,Cebidae,Cebidae,Saimiri,T,4,1,5,9,9,9,0,0,3,4,0,0,2,0,7,0,0,3,2,0,9,0,0,9,8,1,0,1,0.111111111,7,2,2,3,0,1,0,1,0,1,0,0,0,0,0,0,0,0,7,1,1,3,4,1,0,1,1,1,0,1,3,22.905,3,40,1.91,extreme
-Sapajus_apella,Sapajus apella,NWM,Cebidae,Cebidae,Sapajus,T,0,1,1,1,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,35.68093333,NA,NA,0.84,high
-Semnopithecus_entellus,Semnopithecus entellus,OWM,Presbytini,Cercopithecidae,Semnopithecus,T,3,1,4,4,4,4,0,0,3,0,1,2,1,0,0,0,0,0,2,0,3,1,0,4,2,1,1,2,0.5,2,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1,0,3,1,2,1,0,0,1,0,1,0,2,63.65175,NA,NA,NA,unknown
-Theropithecus_gelada,Theropithecus gelada,OWM,Papionini,Cercopithecidae,Theropithecus,T,2,0,2,16,16,16,0,0,15,1,16,0,0,0,0,0,0,7,9,0,16,0,0,16,14,2,0,2,0.125,14,0,6,8,0,11,3,0,0,1,0,0,0,0,0,0,0,0,11,5,11,5,12,4,0,16,12,4,0,16,4,64.94664167,NA,NA,0.74,high
-Trachypithecus_pileatus,Trachypithecus pileatus,OWM,Presbytini,Cercopithecidae,Trachypithecus,T,1,0,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,high
-Trachypithecus_poliocephalus,Trachypithecus poliocephalus,OWM,Presbytini,Cercopithecidae,Trachypithecus,T,2,0,3,4,4,4,0,0,0,4,4,0,0,0,0,0,0,2,2,0,4,0,0,4,4,0,0,0,0,4,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,4,0,4,0,4,0,1,3,3,1,0,4,NA,NA,NA,NA,NA,high
+species,group,family,genus,have.tf,acc,sources.n,cases.n,infant.n,single.n,twin.n,triplet.n,inf.info,inf.live,inf.still,inf.comp,case.death,death.prop,vertex.n,face.n,brow.n,face.prop,ass.T,ass.F,ass.prop,con.ass.T,con.ass.F,con.prop,CPP,CPP.gencat
+Alouatta_belzebul,NWM,Atelidae,Alouatta,T,,1,2,2,2,0,0,2,2,0,0,0,0,0,0,0,,1,0,1,0,2,0,NA,unknown
+Alouatta_caraya,NWM,Atelidae,Alouatta,T,,1,4,4,4,0,0,4,4,0,0,0,0,0,0,0,,3,0,1,0,4,0,NA,unknown
+Alouatta_guariba,NWM,Atelidae,Alouatta,T,,2,2,2,2,0,0,2,1,0,1,1,0.5,0,0,0,,1,0,1,0,0,,NA,unknown
+Alouatta_palliata,NWM,Atelidae,Alouatta,T,,3,3,3,3,0,0,3,3,0,0,0,0,1,0,0,0,2,1,0.6666666667,0,2,0,NA,unknown
+Alouatta_pigra,NWM,Atelidae,Alouatta,T,,1,1,1,1,0,0,1,1,0,0,0,0,0,1,0,1,1,0,1,0,1,0,NA,unknown
+Alouatta_seniculus,NWM,Atelidae,Alouatta,T,NC_027825.1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,0,1,0,0,0,,NA,unknown
+Ateles_fusciceps,NWM,Atelidae,Ateles,T,,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,1,0,1,0,0,,NA,high
+Callithrix_jacchus,NWM,Callitrichidae,Callithrix,T,NC_025586,4,25,59,3,10,12,56,48,7,2,8,0.1607142857,21,0,0,0,1,22,0.04347826087,0,5,0,1.23,extreme
+Cebuella_pygmaea,NWM,Callitrichidae,Cebuella,T,MZ747454.1 ,1,1,2,0,1,0,1,1,0,0,0,0,0,0,0,,0,0,,0,0,,NA,unknown
+Cercocebus_galeritus,OWM,Cercopithecidae,Cheracebus,T,,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,0,0,,0,1,0,NA,unknown
+Cercopithecus_campbelli,OWM,Cercopithecidae,Cercopithecus,T,,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,1,0,1,0,0,,NA,unknown
+Cercopithecus_mitis,OWM,Cercopithecidae,Cercopithecus,T,,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,0,0,,0,0,,NA,unknown
+Cercopithecus_mona,OWM,Cercopithecidae,Cercopithecus,T,,1,1,1,1,0,0,1,1,0,0,0,0,1,0,0,0,1,0,1,0,0,,NA,unknown
+Cercopithecus_neglectus,OWM,Cercopithecidae,Cercopithecus,T,MW160353.1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,1,0,1,0,0,,NA,unknown
+Chlorocebus_aethiops,OWM,Cercopithecidae,Chlorocebus,T,,2,2,2,2,0,0,2,1,0,1,1,0.5,0,0,0,,0,1,0,0,0,,NA,unknown
+Chlorocebus_pygerythrus,OWM,Cercopithecidae,Chlorocebus,T,,2,2,2,2,0,0,2,2,0,0,0,0,1,0,0,0,0,1,0,0,1,0,NA,unknown
+Colobus_guereza,OWM,Cercopithecidae,Colobus,T,AY863427,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,1,0,1,0,1,0,0.5,low
+Erythrocebus_patas,OWM,Cercopithecidae,Erythrocebus,T,KJ434955,3,9,9,9,0,0,3,3,0,0,0,0,1,0,0,0,2,0,1,0,2,0,0.83,high
+Galago_moholi,Lorisoidea,Galagidae,Galago,T,KC757396,1,3,6,1,1,1,6,3,1,2,3,0.5,1,0,0,0,0,1,0,0,2,0,1.56,extreme
+Gorilla_beringei,Ape,Hominidae,Gorilla,T,KF914213.1 ,2,2,2,2,0,0,2,2,0,0,0,0,0,0,0,,0,0,,0,1,0,NA,low
+Gorilla_gorilla,Ape,Hominidae,Gorilla,T,NC_001645,18,20,20,20,0,0,20,20,0,0,0,0,2,0,0,0,3,5,0.375,0,6,0,0.33,low
+Hylobates_moloch,Ape,Hylobatidae,Hylobates,T,,1,1,1,1,0,0,1,1,0,0,0,0,1,0,0,0,1,0,1,0,1,0,NA,low
+Hylobates_muelleri,Ape,Hylobatidae,Hylobates,T,,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,0,1,0,0,0,,NA,low
+Hylobates_pileatus,Ape,Hylobatidae,Hylobates,T,,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,0,0,,0,0,,NA,low
+Lagothrix_lagotricha,NWM,Atelidae,Lagothrix,T,KC757398,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,0,1,0,0,0,,0.83,high
+Lemur_catta,Lemur,Lemuridae,Lemur,T,NC_004025,2,5,5,5,0,0,1,1,0,0,0,0,0,0,0,,4,1,0.8,0,5,0,0.63,low
+Loris_lydekkerianus,Lorisoidea,Lorisidae,Loris,T,KC757402.1,1,2,2,2,0,0,2,2,0,0,0,0,0,0,1,0,1,1,0.5,0,0,,NA,unknown
+Macaca_arctoides,OWM,Cercopithecidae,Macaca,T,,2,4,4,4,0,0,4,4,0,0,0,0,0,0,0,,4,0,1,0,2,0,NA,low
+Macaca_fascicularis,OWM,Cercopithecidae,Macaca,T,,30,34,34,34,0,0,31,22,5,4,9,0.2903225806,6,1,1,0.125,24,4,0.8571428571,0,11,0,NA,low
+Macaca_fuscata,OWM,Cercopithecidae,Macaca,T,,7,22,22,22,0,0,22,17,5,0,5,0.2272727273,4,0,0,0,7,1,0.875,0,4,0,NA,low
+Macaca_leonina,OWM,Cercopithecidae,Macaca,T,,4,4,4,4,0,0,4,1,3,0,3,0.75,0,0,0,,2,1,0.6666666667,0,0,,NA,low
+Macaca_mulatta,OWM,Cercopithecidae,Macaca,T,NC_005943,13,20,20,20,0,0,20,16,4,0,4,0.2,0,4,1,0.8,10,3,0.7692307692,0,4,0,0.63,low
+Macaca_nemestrina,OWM,Cercopithecidae,Macaca,T,,2,2,2,2,0,0,2,1,1,0,1,0.5,0,0,0,,2,0,1,0,1,0,NA,low
+Macaca_nigra,OWM,Cercopithecidae,Macaca,T,,1,1,1,1,0,0,0,0,0,0,0,,0,1,0,1,1,0,1,0,1,0,NA,low
+Macaca_sinica,OWM,Cercopithecidae,Macaca,T,,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,1,0,1,0,1,0,NA,low
+Macaca_sylvanus,OWM,Cercopithecidae,Macaca,T,,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,0,0,,0,0,,NA,low
+Mandrillus_sphinx,OWM,Cercopithecidae,Mandrillus,T,KJ434963,1,1,1,1,0,0,1,0,1,0,1,1,1,0,0,0,1,0,1,0,0,,0.67,high
+Nasalis_larvatus,OWM,Cercopithecidae,Nasalis,T,JF293094,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,0,1,0,0,1,0,0.59,low
+Pan_paniscus,Ape,Hominidae,Pan,T,NC_001644.1,9,8,8,8,0,0,9,9,0,0,0,0,1,0,0,0,5,0,1,2,2,0.5,NA,low
+Pan_troglodytes,Ape,Hominidae,Pan,T,EU095335,18,21,21,21,0,0,21,21,0,0,0,0,5,2,0,0.2857142857,7,7,0.5,0,5,0,0.37,low
+Papio_anubis,OWM,Cercopithecidae,Papio,T,KC757406,4,4,4,4,0,0,4,3,1,0,1,0.25,0,1,0,1,3,0,1,0,3,0,0.69,high
+Papio_cynocephalus,OWM,Cercopithecidae,Papio,T,,1,1,1,1,0,0,0,0,0,0,0,,0,0,0,,0,0,,0,1,0,NA,low
+Papio_hamadryas,OWM,Cercopithecidae,Papio,T,NC_001992,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,0,1,0,0,1,0,0.57,low
+Papio_ursinus,OWM,Cercopithecidae,Papio,T,,1,1,1,1,0,0,1,1,0,0,0,0,1,0,0,0,NA,NA,,0,1,0,NA,low
+Plecturocebus_donacophilus,NWM,Pitheciidae,Plecturocebus,T,,2,2,2,2,0,0,2,2,0,0,0,0,0,0,0,,0,2,0,0,1,0,NA,unknown
+Pongo_abelii,Ape,Hominidae,Pongo,T,NC_002083.1,3,3,3,3,0,0,3,3,0,0,0,0,1,0,0,0,2,0,1,0,0,,NA,low
+Pongo_pygmaeus,Ape,Hominidae,Pongo,T,NC_001646,9,10,11,9,1,0,11,11,0,0,0,0,0,0,0,,3,1,0.75,0,4,0,0.42,low
+Propithecus_verreauxi,Lemur,Indriidae,Propithecus,T,,4,5,5,5,0,0,5,5,0,0,0,0,0,0,0,,3,0,1,0,5,0,NA,unknown
+Pygathrix_nemaeus,OWM,Cercopithecidae,Pygathrix,T,JF293096,2,2,2,2,0,0,2,1,0,1,1,0.5,0,0,0,,1,0,1,0,1,0,NA,unknown
+Rhinopithecus_bieti,OWM,Cercopithecidae,Rhinopithecus,T,HM125579,4,2,2,2,0,0,2,2,0,0,0,0,1,0,0,0,0,2,0,2,0,1,NA,unknown
+Rhinopithecus_roxellana,OWM,Cercopithecidae,Rhinopithecus,T,,1,1,1,1,0,0,1,1,0,0,0,0,1,0,0,0,1,0,1,1,0,1,NA,unknown
+Saguinus_mystax,NWM,Callitrichidae,Saguinus,T,,1,1,2,0,1,0,2,2,0,0,0,0,0,0,0,,0,0,,0,1,0,NA,extreme
+Saguinus_oedipus,NWM,Callitrichidae,Saguinus,T,FJ785424,2,15,34,1,9,5,33,31,0,2,2,0.06060606061,8,0,0,0,1,14,0.06666666667,0,15,0,1.87,extreme
+Saimiri_sciureus,NWM,Cebidae,Saimiri,T,FJ785425,5,9,9,9,0,0,9,8,1,0,1,0.1111111111,2,3,0,0.6,1,3,0.25,0,1,0,1.91,extreme
+Sapajus_apella,NWM,Cebidae,Sapajus,T,,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,,0,0,,0,0,,0.84,high
+Semnopithecus_entellus,OWM,Cercopithecidae,Semnopithecus,T,,4,4,4,4,0,0,4,2,1,1,2,0.5,0,0,0,,3,1,0.75,0,0,,NA,unknown
+Theropithecus_gelada,OWM,Cercopithecidae,Theropithecus,T,FJ785426,2,16,16,16,0,0,16,14,2,0,2,0.125,6,8,0,0.5714285714,11,5,0.6875,0,16,0,0.74,high
+Trachypithecus_pileatus,OWM,Cercopithecidae,Trachypithecus,T,,1,1,1,1,0,0,0,0,0,0,0,,0,0,0,,0,0,,0,0,,NA,high
+Trachypithecus_poliocephalus,OWM,Cercopithecidae,Trachypithecus,T,,3,4,4,4,0,0,4,4,0,0,0,0,0,0,0,,4,0,1,1,3,0.25,NA,high

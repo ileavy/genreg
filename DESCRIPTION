@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     c(person("Apple", "Leavy", , "isabelle.leavy@gmail.com", role = c("aut", "cre")),
     person("Saida", "Tokmurzina", "st39854@my.utexas.edu", role = c("aut")))
-Description: This package starts with mitochondrial DNA data from multiple species and provides the tools needed to build a phylogeny and conduct linear and multiple phylogenetic regressions.
+Description: This package starts with mitochondrial DNA data from multiple species and provides the tools needed to build a phylogeny, clean the resultant tree and a dataset containing multiple species, and conduct/compare linear and phylogenetic regressions.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
@@ -14,8 +14,17 @@ Depends:
     ape,
     BiocManager,
     Biostrings,
+    broom,
+    caper,
     DECIPHER,
-    phangorn
+    dplyr,
+    ggplot2,
+    gt,
+    nlme,
+    phangorn,
+    R (>= 3.5),
+    tidyverse
 Suggests: 
     knitr,
     quarto
+LazyData: true

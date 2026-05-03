@@ -4,20 +4,24 @@
 \alias{gennex}
 \title{gennex: from genetic data to nexus phylogeny}
 \usage{
-gennex(data = data, bs = bs, out = out)
+gennex(acc, bs, out, path = "~/Desktop/output.nex")
 }
 \arguments{
-\item{data}{a list of accession numbers for mitogenomes in GenBank (https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)}
+\item{acc}{a list of species and their accession numbers for mitogenomes in GenBank, requires an outgroup and no NA rows}
 
 \item{bs}{how many bootstrap samples do you want it to run}
 
 \item{out}{one of the species names in the "data" list to be used as the outgroup}
+
+\item{path}{a pathway to the wd where you want the nex file saved}
 }
 \description{
 This function pulls mitochondrial DNA from Gen Bank and creates a phylogenetic map
 }
 \examples{
-gennex(data = c(Canis_lupus_familiaris = "NC_002008", Lemur_catta = "NC_004025",Galago_moholi = "KC757396", Saimiri_sciureus = "FJ785425", Callithrix_jacchus = "NC_025586"), bs = 100, out = "Canis_lupus_familiaris")
+\dontrun{
+gennex(acc = c(Canis_lupus_familiaris = "NC_002008", Lemur_catta = "NC_004025",Galago_moholi = "KC757396", Saimiri_sciureus = "FJ785425", Callithrix_jacchus = "NC_025586"), bs = 100, out = "Canis_lupus_familiaris", path = "~/Desktop/Repos")
+}
 }
 \keyword{genbank}
 \keyword{mitodna,}

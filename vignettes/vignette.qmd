@@ -1,5 +1,5 @@
 ---
-title: "gennex Vignette"
+title: "{genreg} Vignette"
 vignette: >
   %\VignetteIndexEntry{gennex Vignette}
   %\VignetteEngine{quarto::html}
@@ -13,16 +13,62 @@ knitr:
 ```{r}
 #| label: setup
 library(genreg)
+library(tidyverse)
+
+knitr::opts_knit$set(root.dir = "/Users/isabelleleavy/Desktop/Repos/genreg")
+
 ```
 
+###DESCRIPTION
+
+This package contains three functions and takes in a single data frame as an input. This data frame must include a "species" column (containing species names in the format "Homo_sapiens") and an "accession" column containing the accession number for each species mitochondrial DNA, which can be found here: https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome. You must also have the accession number for an outgroup at hand.
+
+The first function is called gennex(), and it takes the accession numbers for mitochondrial DNA from GenBank and creates a nexus file containing the predicted phylogenetic relationship between each species based on maximum likelihood.
+
+The second function is called nexsimple() and it unites your data set with the tree from a nexus file (either the one created in the last function, or a different one). ///
+
+The third function runs mutliple phylogenetic and non-phylogenetic regressions on a variable of interest from your data frame to compare the relative effectiveness of each method and report phylogenetic signal.
+
+##Background
+
+The data contained in this demonstration and vignette are sourced from my master's research on childbirth behaviors in nonhuman primates. Behavioral data was collected for 59 primate species representing 31 genera in 11 families. For the purposes of this demo, only species for whom I have behavioral data will be considered.
+
+In the project, I (AL) was interested in the potential relationship between behaviors/anatomies exhibited by primate mothers and the relative size of the infant head when compared to the pelvic canal. This variable, cephalopelvic proportion (cpp) was collected using 3D shape analysis methods performed by Nicole Torres-Tamayo (2025), and all other variables were collected by me from publicly available video and written sources. This data, and subsequent relationships, have not yet been published, but some introductory information about the field can be found in Webb et al., 2026, where I am a coauthor.
+
+Cephalopelvic proportion, or disproportion as it is often couched in humans, is thought to be a byproduct of conflicting evolutionary pressures for locomotion and the large heads (and brains) of primate infants. Body size and locomotion both vary considerably in the primate order, and CPP has been used as one (of many) variables used to explore the impact of bipedal locomotion on human anatomy, particularly in regards to parturition (CITE). Primates vary in their CPP, and this project seeks to explore whether this variation has any predictive power on birth behaviors, which needs to be assessed with phylogeny taken into account.
+
+CPP in humans has been cited as a cause of our "high" rate of stillbirth and intrapartum infant death as well as the reason for rotation through the birth canal. In non-human primates, birth has been considered to be "easy and nonhazardous" (CITE), but these beliefs have not been systematically explored or compared across the order.
+
+##Predictions
+
+1. Primate species with higher CPP values also have higher rates of fetal death (dead infants / total infants)(death.prop).
+
+There are many other outcomes that could be assessed using this workflow, but I will use this straightforward one as an example. 
+
+##Parameters Setup
+
 ```{r}
-data <- c(
-  Canis_lupus_familiaris = "NC_002008",
+#switch this to the right path if needed, should be in the package file (/Users/isabelleleavy/Desktop/Repos/genreg/data/VarBySpecies.rda)
+df <- read_csv("VarBySpecies.csv", col_names = TRUE)
+head(df)
+```
+
+This data frame (df) contains species names, accession numbers, and a number of variables for 59 primate species. For this vignette, the variables of interest are CPP and death.prop (how many infants died / all infants known for that species).
+
+##{gennex}
+
+```{r}
+#creating the list of accession numbers to pull genetic data
+
+#Opt 1: Manual Input
+acc <- c(
+  Canis_lupus_familiaris = "NC_002008", #OUTGROUP
   Lemur_catta = "NC_004025",
   Galago_moholi = "KC757396",
   Saimiri_sciureus = "FJ785425",
   Callithrix_jacchus = "NC_025586",
   Saguinus_oedipus = "FJ785424",
+  Ateles_belzebuth = "KC757386",
   Lagothrix_lagotricha = "KC757398",
   Colobus_guereza = "AY863427",
   Nasalis_larvatus = "JF293094",
@@ -32,12 +78,58 @@ data <- c(
   Papio_anubis = "KC757406",
   Papio_hamadryas = "NC_001992",
   Theropithecus_gelada = "FJ785426",
+  Hylobates_lar = "NC_002082",
   Pongo_pygmaeus = "NC_001646",
   Gorilla_gorilla = "NC_001645",
   Pan_troglodytes = "EU095335"
 )
 
-gennex(data = data, bs = 100, out = "Canis_lupus_familiaris")
+#Opt 2: Pull out of df
+acc <- as.list(setNames(df$acc, df$species))
 
+#now need to add the outgroup to acc
+acc[["Canis_lupus_familiaris"]] <- "NC_002008"
 
+#remove na values
+acc <- Filter(Negate(is.na), acc)
+length(acc) #27 species represented
 ```
+
+```{r}
+#using {gennex} to turn the accession numbers into a nexus form phylogeny
+
+gennex(acc = acc, bs = 100, out = "Canis_lupus_familiaris", path = "~/Desktop/Repos")
+#the resulting nexus file will save to the path indicated above, and may need to be moved before moving on to the next step
+```
+
+##{nexsimple}
+
+From here, we can now manipulate the nexus file that we built! Before we complete any phylogenetic regressions, we need to remove any tips that don't show up in our data frame, and remove species from the data frame that we do not have in our nexus. In this case, that will pretty significantly reduce our sample size.
+
+```{r}
+nex <- read.nexus("gennex_output.nex") 
+
+result <- nexsimple(nex, df, "CPP")
+tree_pruned <- result$tree
+df_final <- result$d
+
+#plot the original phylogeny with colors showing species that will be retained
+prune_colors <- ifelse(nex$tip.label %in% df_final$species, "steelblue", "black")
+plot(nex, tip.color = prune_colors, cex = 0.5)
+```
+```{r}
+#plot the new phylogeny
+plot(tree_pruned, cex = 0.5)
+```
+
+##{phyreg}
+
+This final function exists to demonstrate phylogenetic regression and why it is important. Phylogenetic regression, usually using pgls, takes relatedenss as a potential interaction term for a linear regression. In some cases, a linear or generalized model of some kind might show a high correlation between variances when working with a multispecies dataset, but in reality, that relationship has more to do with relatedness than it does to do with your variable of interest (for instance, locomotion or body size, both of which tend to covary with relatedness). However, phylogeny does not always impact the relationship, but we need to check using both general and phylogenetic methods. This function will run both for a simple 2 variable relationship where both variables are numeric, and it will return the important coefficient information to compare them. It will also return pagel's lambda for the model, which gives us a sense of the "phylogenetic signal," basically, how much of the variance that we see in the outcome variable is correlated to relatedness. 
+
+It requires a tree, a data frame that matches that tree (use nexsimple() to get one!), a predictor variable (in quotes) and an outcome variable (in quotes). 
+
+```{r}
+#comparing models
+phyreg(tree = tree_pruned, df = df_final, pvar = "CPP", ovar = "death.prop")
+```
+

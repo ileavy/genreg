@@ -1,0 +1,67 @@
+#NEXUS
+[R-package APE, Sun May  3 11:39:57 2026]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 27;
+	TAXLABELS
+		Alouatta_seniculus
+		Callithrix_jacchus
+		Cebuella_pygmaea
+		Cercopithecus_neglectus
+		Colobus_guereza
+		Erythrocebus_patas
+		Galago_moholi
+		Gorilla_beringei
+		Gorilla_gorilla
+		Lagothrix_lagotricha
+		Lemur_catta
+		Loris_lydekkerianus
+		Macaca_mulatta
+		Mandrillus_sphinx
+		Nasalis_larvatus
+		Pan_paniscus
+		Pan_troglodytes
+		Papio_anubis
+		Papio_hamadryas
+		Pongo_abelii
+		Pongo_pygmaeus
+		Pygathrix_nemaeus
+		Rhinopithecus_bieti
+		Saguinus_oedipus
+		Saimiri_sciureus
+		Theropithecus_gelada
+		Canis_lupus_familiaris
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Alouatta_seniculus,
+		2	Callithrix_jacchus,
+		3	Cebuella_pygmaea,
+		4	Cercopithecus_neglectus,
+		5	Colobus_guereza,
+		6	Erythrocebus_patas,
+		7	Galago_moholi,
+		8	Gorilla_beringei,
+		9	Gorilla_gorilla,
+		10	Lagothrix_lagotricha,
+		11	Lemur_catta,
+		12	Loris_lydekkerianus,
+		13	Macaca_mulatta,
+		14	Mandrillus_sphinx,
+		15	Nasalis_larvatus,
+		16	Pan_paniscus,
+		17	Pan_troglodytes,
+		18	Papio_anubis,
+		19	Papio_hamadryas,
+		20	Pongo_abelii,
+		21	Pongo_pygmaeus,
+		22	Pygathrix_nemaeus,
+		23	Rhinopithecus_bieti,
+		24	Saguinus_oedipus,
+		25	Saimiri_sciureus,
+		26	Theropithecus_gelada,
+		27	Canis_lupus_familiaris
+	;
+	TREE * UNTITLED = [&R] (((((((((18:0.007432802706,19:0.006627022675)1:0.06298540361,26:0.05271501188)1:0.06226990204,(14:0.106563843,13:0.1140969482)1:0.01626609581)1:0.02050122675,(4:0.085816662,6:0.1233585519)1:0.05196414401)1:0.05771031735,((23:0.09000866686,(22:0.1018760086,15:0.09098885972)1:0.009627692018)1:0.05466883005,5:0.1338249798)1:0.07467749501)1:0.09605117883,((20:0.04003468169,21:0.04221230164)1:0.09599440893,((8:0.02122441662,9:0.02183057388)1:0.06119021232,(17:0.02356848647,16:0.02127439659)1:0.04744594496)1:0.0521061137)1:0.09452128069)1:0.1303134973,((25:0.2125379943,(24:0.157055489,(3:0.05921394731,2:0.06378294184)1:0.07220329911)1:0.04305390354)0.999:0.01594379378,(10:0.1178592481,1:0.1011001326)1:0.03404856773)1:0.2303662783)1:0.2072731191,(11:0.2983487121,(12:0.199815922,7:0.209182899)1:0.1863660368)1:0.05411180346)1:0,27:0.4829020276)Root;
+END;

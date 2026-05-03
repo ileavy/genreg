@@ -25,7 +25,7 @@ This package contains three functions and takes in a single data frame as an inp
 
 The first function is called gennex(), and it takes the accession numbers for mitochondrial DNA from GenBank and creates a nexus file containing the predicted phylogenetic relationship between each species based on maximum likelihood.
 
-The second function is called nexsimple() and it unites your data set with the tree from a nexus file (either the one created in the last function, or a different one). ///
+The second function is called nexsimple() and it unites your data set with the tree from a nexus file (either the one created in the last function, or a different one). 
 
 The third function runs mutliple phylogenetic and non-phylogenetic regressions on a variable of interest from your data frame to compare the relative effectiveness of each method and report phylogenetic signal.
 
@@ -33,11 +33,11 @@ The third function runs mutliple phylogenetic and non-phylogenetic regressions o
 
 The data contained in this demonstration and vignette are sourced from my master's research on childbirth behaviors in nonhuman primates. Behavioral data was collected for 59 primate species representing 31 genera in 11 families. For the purposes of this demo, only species for whom I have behavioral data will be considered.
 
-In the project, I (AL) was interested in the potential relationship between behaviors/anatomies exhibited by primate mothers and the relative size of the infant head when compared to the pelvic canal. This variable, cephalopelvic proportion (cpp) was collected using 3D shape analysis methods performed by Nicole Torres-Tamayo (2025), and all other variables were collected by me from publicly available video and written sources. This data, and subsequent relationships, have not yet been published, but some introductory information about the field can be found in Webb et al., 2026, where I am a coauthor.
+In the project, I (AL) was interested in the potential relationship between behaviors/anatomies exhibited by primate mothers and the relative size of the infant head when compared to the pelvic canal. This variable, cephalopelvic proportion (CPP) was collected using 3D shape analysis methods performed by Nicole Torres-Tamayo (2025), and all other variables were collected by me from publicly available video and written sources. This data, and subsequent relationships, have not yet been published, but some introductory information about the field can be found in Webb et al., 2026, where I am a coauthor.
 
-Cephalopelvic proportion, or disproportion as it is often couched in humans, is thought to be a byproduct of conflicting evolutionary pressures for locomotion and the large heads (and brains) of primate infants. Body size and locomotion both vary considerably in the primate order, and CPP has been used as one (of many) variables used to explore the impact of bipedal locomotion on human anatomy, particularly in regards to parturition (CITE). Primates vary in their CPP, and this project seeks to explore whether this variation has any predictive power on birth behaviors, which needs to be assessed with phylogeny taken into account.
+Cephalopelvic proportion, or disproportion as it is often couched in humans, is thought to be a byproduct of conflicting evolutionary pressures for locomotion and the large heads (and brains) of primate infants. Body size and locomotion both vary considerably in the primate order, and CPP has been used as one (of many) variables used to explore the impact of bipedal locomotion on human anatomy, particularly in regards to parturition (Trevathan, 1987). Primates vary in their CPP, and this project seeks to explore whether this variation has any predictive power on birth behaviors, which needs to be assessed with phylogeny taken into account.
 
-CPP in humans has been cited as a cause of our "high" rate of stillbirth and intrapartum infant death as well as the reason for rotation through the birth canal. In non-human primates, birth has been considered to be "easy and nonhazardous" (CITE), but these beliefs have not been systematically explored or compared across the order.
+CPP in humans has been cited as a cause of our "high" rate of stillbirth and intrapartum infant death as well as the reason for rotation through the birth canal. In non-human primates, birth has been considered to be "easy and nonhazardous" (Gruss and Schmidt, 2015), but these beliefs have not been systematically explored or compared across the order.
 
 ##Predictions
 
@@ -132,4 +132,13 @@ It requires a tree, a data frame that matches that tree (use nexsimple() to get 
 #comparing models
 phyreg(tree = tree_pruned, df = df_final, pvar = "CPP", ovar = "death.prop")
 ```
+
+##References
+
+Gruss LT, Schmitt D. The evolution of the human pelvis: changing adaptations to bipedalism, obstetrics and thermoregulation. Philos Trans R Soc Lond B Biol Sci. 2015 Mar 5;370(1663):20140063. doi: 10.1098/rstb.2014.0063. PMID: 25602067; PMCID: PMC4305164.
+
+Trevathan, W.R. (1987). Human Birth: An Evolutionary Perspective (1st ed.). Routledge. https://doi.org/10.4324/9780203789599
+
+Webb, Christine, Esme Benson, Isabelle Leavy, and Alecia Carter. 2026. “Comparative Ilithology: The Study of Birth and Parturitional Behaviors Across Species.” Animal Behavior and Cognition 13 (1): 79–100. https://doi.org/10.26451/abc.13.01.05.2026.
+
 
